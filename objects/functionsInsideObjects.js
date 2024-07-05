@@ -4,10 +4,10 @@ let obj2 = {
     city : "Schiedam",
     martialStatus : "married",
     displayDetails: function deails() {
-        console.log(`${obj2.firstName} is ${obj2.age} years old and he is living in ${this.city}`)
+        console.log(`${obj2.firstName} is ${obj2.age} years old and he is living in ${obj2.city}`)
     },
     information() {
-        console.log(`${obj2.firstName} is ${obj2.age} years old, ${this.martialStatus} and he is living in ${this.city}`)
+        console.log(`${obj2.firstName} is ${obj2.age} years old, ${obj2.martialStatus} and he is living in ${obj2.city}`)
     }
 
 }
