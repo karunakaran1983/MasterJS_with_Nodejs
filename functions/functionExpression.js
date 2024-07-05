@@ -18,6 +18,3 @@ let ck = function(arg) {
 // We need to careful not to assign any value to anonymous function variable like below
 // ck = 100 // TypeError: ck is not a function
 ck('This is an Anonymous function')
-
-
-
