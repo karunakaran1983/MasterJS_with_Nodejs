@@ -1,4 +1,4 @@
-function addNumbers(num1, num2) {
+function displayNumbers(num1, num2) {
     console.log(num1)
     console.log(num2)
 }
