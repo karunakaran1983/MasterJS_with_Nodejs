@@ -16,7 +16,7 @@ const student2 = {
 console.log(student1)
 console.log(student2)
 
-// THIS IS INEFFICIENT WAY OF CREATING OBJECTS
+// THIS IS INEFFICIENT WAY OF CREATING OBJECTS, BELOW IS THE OPTIMUM WAY
 
 function createStudent(name, age, city, country) {
     const student = {}
